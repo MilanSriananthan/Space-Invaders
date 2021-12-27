@@ -2,12 +2,12 @@
 
 Remake of the popular retro game "space invaders"
 
-##Coding
+## Coding
 
 - writting using python
 - utilized pygame module
 
-##Function
+## Function
 
 - Collision Detection
 - Game movement
