@@ -17,4 +17,5 @@ Remake of the popular retro game "space invaders"
 
 ## Game Screenshots
 
-![](C:\Users\milan\OneDrive\Pictures)
+![](gameScreenshots\SpaceInvaderScreenshot.png)
+![](gameScreenshots\SpaceInvaderMidShot.png)
