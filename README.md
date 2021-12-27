@@ -18,4 +18,4 @@ Remake of the popular retro game "space invaders"
 ## Game Screenshots
 
 ![Screenshot 1](\gameScreenshots\SpaceInvaderScreenshot.png)
-![screenshot 2](gameScreenshots\SpaceInvaderMidShot.png)
+<img src="gameScreenshots\SpaceInvaderMidShot.png" alt="My cool logo"/>
