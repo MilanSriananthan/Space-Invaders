@@ -14,3 +14,7 @@ Remake of the popular retro game "space invaders"
 - Keyboard Input
 - Game logic
 - importing images and sounds
+
+## Game Screenshots
+
+![](C:\Users\milan\OneDrive\Pictures)
