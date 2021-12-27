@@ -17,5 +17,5 @@ Remake of the popular retro game "space invaders"
 
 ## Game Screenshots
 
-![Screenshot 1](\gameScreenshots\SpaceInvaderScreenshot.png)
-<img src="gameScreenshots\SpaceInvaderMidShot.png" alt="My cool logo"/>
+<img src="gameScreenshots\SpaceInvaderScreenshot.png" alt="Screenshot of initial game"/>
+<img src="gameScreenshots\SpaceInvaderMidShot.png" alt="Midshot screenshot of game"/>
