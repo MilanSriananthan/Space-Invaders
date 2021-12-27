@@ -18,4 +18,4 @@ Remake of the popular retro game "space invaders"
 ## Game Screenshots
 
 ![Screenshot 1](C:\Users\milan\PycharmProjects\GameDevelopment\gameScreenshots\SpaceInvaderScreenshot.png)
-![screenshot 2](gameScreenshots\SpaceInvaderMidShot.png)
+![](gameScreenshots\SpaceInvaderMidShot.png)
