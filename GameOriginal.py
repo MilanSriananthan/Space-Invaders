@@ -7,15 +7,15 @@ pygame.init()
 
 screen = pygame.display.set_mode((800, 600))
 
-background = pygame.image.load('background.png')
-mixer.music.load('background.wav')
+background = pygame.image.load('gameimages/background.png')
+mixer.music.load('game sounds/background.wav')
 mixer.music.play(-1)
 
 pygame.display.set_caption("Space Shooters")
-icon = pygame.image.load('spaceship.png')
+icon = pygame.image.load('gameimages/spaceship.png')
 pygame.display.set_icon(icon)
 
-playerImg = pygame.image.load('player.png')
+playerImg = pygame.image.load('gameimages/player.png')
 playerX = 370
 playerY = 480
 playerX_change = 0
@@ -28,13 +28,13 @@ enemyY_change = []
 num_of_enemies = 6
 
 for i in range(num_of_enemies):
-    enemyImg.append(pygame.image.load('alien.png'))
+    enemyImg.append(pygame.image.load('gameimages/alien.png'))
     enemyX.append(random.randint(0, 735))
     enemyY.append(random.randint(50, 150))
     enemyX_change.append(4)
     enemyY_change.append(40)
 
-bulletImg = pygame.image.load('bullet.png')
+bulletImg = pygame.image.load('gameimages/bullet.png')
 bulletX = 0
 bulletY = 480
 bulletX_change = 4
@@ -91,7 +91,7 @@ while running:
                 playerX_change = 5
             if event.key == pygame.K_SPACE:
                 if bullet_state == 'ready':
-                    bullet_Sound = mixer.Sound('laser.wav')
+                    bullet_Sound = mixer.Sound('game sounds/laser.wav')
                     bullet_Sound.play()
                     bulletX = playerX
                     fire_bullet(bulletX, bulletY)
@@ -126,7 +126,7 @@ while running:
 
         collision = isCollision(enemyX[i], enemyY[i], bulletX, bulletY)
         if collision:
-            explosion_Sound = mixer.Sound('explosion.wav')
+            explosion_Sound = mixer.Sound('game sounds/explosion.wav')
             explosion_Sound.play()
             bulletY = 480
             bullet_state = 'ready'
